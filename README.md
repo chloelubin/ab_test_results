@@ -17,7 +17,7 @@ approx. 0.9, we would fail to reject the null and keep the old webpage in place.
 statsmodels and arrived at the same conclusion.
 
 By fitting a logistic regression model, we seek to predict two possible outcomes: conversion or no conversion. We see from 
-the results summary table above that the likelihood of converting given that an indidividual was in the treatment group isn't 
+the results summary table above that the likelihood of converting given that an individual was in the treatment group isn't 
 statistically significant with a p-value of 0.19 (two-sided), confirming once again that we should stick with the old webpage.
 
 Lastly, we added a country variable to our regression model to see whether the region where individuals were located affected 
