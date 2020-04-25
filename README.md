@@ -6,8 +6,8 @@ two groups: a control group and a treatment (or experiment) one. The control gro
 group viewed the new one.
 
 After setting our null and alternative hypotheses to be: 
-                                                    H0: p_old ≥ p_new
-                                                    H1: p_old < p_new
+$$H_0: p_{new} - p_{old} \leq 0$$ \n
+$$H_1: p_{new} - p_{old} > 0$$
 
 We simulated the test 10,000 times on a sample distribution of ab_test population.
 
